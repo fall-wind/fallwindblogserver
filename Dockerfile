@@ -14,7 +14,7 @@ WORKDIR /app
 RUN npm install
 
 #对外暴露的端口
-EXPOSE 8000
+EXPOSE 3000
 
 #程序启动脚本
 CMD ["npm", "start"]
