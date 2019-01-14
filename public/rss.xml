@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[秋风的博客]]></title><description><![CDATA[Personal blog by Dan Abramov. I explain with words and code.]]></description><link>https://overreacted.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 14 Jan 2019 12:43:19 GMT</lastBuildDate><item><title><![CDATA[react 中发布订阅模式使用]]></title><description><![CDATA[场景 怎么能将设计模式应用到我们的 React 项目中？以前一直在思考这个问题。 场景一 模块 A 模块 B 需要用到同一个数据 data，A 和 B…]]></description><link>https://overreacted.io/react中发布订阅模式使用/</link><guid isPermaLink="false">https://overreacted.io/react中发布订阅模式使用/</guid><pubDate>Fri, 21 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;场景&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[秋风的博客]]></title><description><![CDATA[Personal blog by Dan Abramov. I explain with words and code.]]></description><link>https://overreacted.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 14 Jan 2019 13:12:40 GMT</lastBuildDate><item><title><![CDATA[react 中发布订阅模式使用]]></title><description><![CDATA[场景 怎么能将设计模式应用到我们的 React 项目中？以前一直在思考这个问题。 场景一 模块 A 模块 B 需要用到同一个数据 data，A 和 B…]]></description><link>https://overreacted.io/react中发布订阅模式使用/</link><guid isPermaLink="false">https://overreacted.io/react中发布订阅模式使用/</guid><pubDate>Fri, 21 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;场景&lt;/h1&gt;
 &lt;p&gt;怎么能将设计模式应用到我们的 React 项目中？以前一直在思考这个问题。&lt;/p&gt;
 &lt;h2&gt;场景一&lt;/h2&gt;
 &lt;p&gt;模块 A 模块 B 需要用到同一个数据 data，A 和 B 都会修改这份数据，且这两个模块会同时存在；这时我们如何做到数据公用与各个模块的更新？&lt;/p&gt;
@@ -242,7 +242,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/b722158a9b03d203ea6d04f68dad2720/e588f/string-prototype.png&quot;
+    href=&quot;/static/b722158a9b03d203ea6d04f68dad2720/e588f/stringPrototype.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -259,14 +259,14 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;image&quot;
+        alt=&quot;pic&quot;
         title=&quot;&quot;
-        src=&quot;/static/b722158a9b03d203ea6d04f68dad2720/fb8a0/string-prototype.png&quot;
-        srcset=&quot;/static/b722158a9b03d203ea6d04f68dad2720/1a291/string-prototype.png 148w,
-/static/b722158a9b03d203ea6d04f68dad2720/2bc4a/string-prototype.png 295w,
-/static/b722158a9b03d203ea6d04f68dad2720/fb8a0/string-prototype.png 590w,
-/static/b722158a9b03d203ea6d04f68dad2720/526de/string-prototype.png 885w,
-/static/b722158a9b03d203ea6d04f68dad2720/e588f/string-prototype.png 1160w&quot;
+        src=&quot;/static/b722158a9b03d203ea6d04f68dad2720/fb8a0/stringPrototype.png&quot;
+        srcset=&quot;/static/b722158a9b03d203ea6d04f68dad2720/1a291/stringPrototype.png 148w,
+/static/b722158a9b03d203ea6d04f68dad2720/2bc4a/stringPrototype.png 295w,
+/static/b722158a9b03d203ea6d04f68dad2720/fb8a0/stringPrototype.png 590w,
+/static/b722158a9b03d203ea6d04f68dad2720/526de/stringPrototype.png 885w,
+/static/b722158a9b03d203ea6d04f68dad2720/e588f/stringPrototype.png 1160w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
